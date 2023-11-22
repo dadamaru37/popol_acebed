@@ -1,0 +1,139 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*나눔명조 영*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+/*이탈리아나 타이포*/
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+  line-height: 24px;
+    color: #1e1e1e;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 400;
+    letter-spacing: -0.25px;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    word-spacing: -1px;
+}
+
+p {
+    font-size: 16px;
+}
+
+em {
+    font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+strong {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+small {
+    font-size: smaller;
+}
+
+b {
+    font-weight: bolder;
+}
+
+.text-title {
+    text-align: center;
+    margin: 0 auto 40px;
+    width: 335px;
+}
+
+/*폰트 디자인 지정*/
+.font-Amiri {
+    /*세레프영문*/
+    font-family: 'Amiri', serif;
+    font-weight: 400;
+    letter-spacing: -0.25px;
+}
+
+.font-Nanum {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.font-Dancing {
+    font-family: 'Italiana', sans-serif;
+    color: #2a2a3e;
+    font-weight: 400;
+}
+
+.text_upp {
+    text-transform: uppercase;
+}
+
+.text_capi {
+    text-transform: capitalize;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.text_left {
+    text-align: left;
+}
+
+.text_cen {
+    text-align: center;
+}
+
+.text_right {
+    text-align: right;
+}
+
+/*버튼 세팅*/
+button {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    padding: 5px 0px;
+    border: none;
+    color: #222;
+    background-color: rgba(0, 0, 0, 0);
+    border: #222 solid 1px;
+}

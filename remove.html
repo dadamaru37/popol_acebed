@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ko">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3.0">
+  <title>kwang---</title>
+  <link rel="stylesheet" href="font.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="membership.css">
+  <!-- 헤더푸터 복붙-->
+  <script src="hfscript.js"></script>
+  <!-- 제이쿼리 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+
+<body>
+
+
+  <div w3-include-html="header.html"></div>
+
+
+  <div>
+    <h2 class="title page-start">Remove <br>Account</h2>
+  </div>
+
+
+  <article class="remove text_cen">
+    <h4>회원탈퇴</h4>
+    <h4>정말로 탈퇴하시겠습니까?</h4>
+    <p>탈퇴 시 이용내역이 삭제되며
+      <br>서비스 이용이 제한됩니다.
+      <br>또한 삭제된 계정은 복구되지 않습니다.
+    </p>
+    <input class="butn-grey" type="button" value="탈퇴하기">
+  </article>
+
+
+  <article class="remove-reason">
+    <h4 class="text_cen">설문조사</h4>
+    <h5 class="text_cen">불편했던 점, 개선할 점을 공유해 주시면 <br>더 나은 서비스를 위해 반영하도록 하겠습니다.</h5>
+    <p>탈퇴사유</p>
+    <select>
+      <option>선택해 주세요</option>
+      <option>물품상태 관련 사유</option>
+      <option>물품설치 관련 사유</option>
+      <option>물품배송 관련 사유</option>
+      <option>기타</option>
+    </select>
+    <p>건의사항</p>
+    <textarea rows="7" placeholder="소중한 의견 귀담아 듣겠습니다."></textarea>
+    <input class="butn-grey dis_blk" type="button" value="제출하기">
+  </article>
+
+
+  <article class="remove-complete text_cen">
+    <h4>탈퇴완료</h4>
+    <img src="image/remove-icon-remove_user.png">
+    <p>정상적으로 탈퇴 처리 되었습니다.</p>
+    <h5>그 동안 이용해주셔서 감사합니다.</h5>
+    <a href="index.html"><input class="butn-grey" type="button" value="홈으로"></a>
+  </article>
+  
+
+  <div w3-include-html="footer.html"></div>
+
+
+  <script>
+    includeHTML();
+  </script>
+  
+
+</body>
+
+
+</html>

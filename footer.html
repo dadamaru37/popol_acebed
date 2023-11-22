@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kwaaang---copy</title>
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <!-- 스크립트 복붙-->
+    <script src="hfscript.js"></script>
+    <!-- 제이쿼리 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+
+<body>
+
+
+    <footer class="footer">
+		<ul class="footer_sns onlypc_flex">
+			<li class="footer_sns_list"><a><img src="image/footer-icon-menual.png" class="footer_sns_img dis_blk"><sapn>제품 매뉴얼</sapn></a></li>
+			<li class="footer_sns_list"><a><img src="image/footer-icon-as.png" class="footer_sns_img dis_blk"><sapn>A/S 및 상담</sapn></a></li>
+			<li class="footer_sns_list"><a><img src="image/footer-icon-faq.png" class="footer_sns_img dis_blk"><sapn>자주 묻는 질문
+            </sapn></a></li>
+		</ul>
+		<a><img src="image/logo_black.png" class="footer_logo"></a>
+        <p class="footer_info">
+			<strong>(주)에이스침대<br><br>사업자등록번호 : 129-81-02666</strong> 
+		</p>
+
+		<p class="footer_info">
+			본사 : 경기도 성남시 중원구 사기막골로 105번길 42(상대원동) 
+            <br>서울영업본부 : 서울특별시 강남구 도산대로 218 / FAX : 02-544-8788
+		</p>
+		
+		<p class="footer_info">
+			개인정보보호 책임자 : 강성문 
+            <br><br>
+            <a class="footer_policy text_cen">매장개설안내</a>
+            <a class="footer_policy text_cen">특판사업</a>
+            <a class="footer_policy text_cen">고객지원</a>
+            <a class="footer_policy text_cen">구매인증센터</a>
+        </p>
+        <p class="dis_flex">
+            <a>기업정보</a>
+            <a>이용약관</a>
+            <a>개인정보처리방침</a>
+        </p>
+		<p class="footer_info">COPYRIGHT (C) ACE BED CORPORATION ALL RIGHTS RESERVED</p>
+        <div class="footer_famaily onlypc">
+            <a class="dis_blk footer_famaily_tab famaily_tab">FAMILY SITE<img src="image/icon-select.png"></a>
+            <div class="footer_famaily_list famaily_list">
+                <a class="dis_blk">ENGLISH</a>
+                <a class="dis_blk">에이스 에비뉴</a>
+                <a class="dis_blk">에이스 헤리츠</a>
+                <a class="dis_blk">에이스 침대몰</a>
+            </div>
+        </div>
+        <div class="footer_call">
+            <div>
+                <p>고객센터</p>
+                <strong>1599-7121</strong>
+            </div>
+            <div>
+                <p>A/S 문의</p>
+                <strong>080-735-7123</strong>
+            </div>
+        </div>
+        <a href="" class="top_bt dis_blk text_cen"><span class="dis_blk"><img src="image/icon-arrow_small.png"></span>top</a>
+	</footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            var familySiteLink = document.querySelector(".famaily_tab");
+            familySiteLink.addEventListener("click", function () {
+               
+                var familySiteList = document.querySelector(".famaily_list");
+
+                if (familySiteList.style.display === "none" || familySiteList.style.display === "") {
+                    familySiteList.style.display = "block"; // 열림
+                } else {
+                    familySiteList.style.display = "none"; // 닫힘
+                }
+            });
+        });       
+    </script>
+
+</body>
+</html>

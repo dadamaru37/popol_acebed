@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ko">
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3.0">
+	<title>kwang---</title>
+	<link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="board.css">
+	<!-- 헤더푸터 복붙-->
+	<script src="hfscript.js"></script>
+	<!-- 제이쿼리 -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+
+<body>
+
+	
+	<div w3-include-html="header.html"></div>
+
+
+	<div>
+		<h2 class="title page-start">Board</h2>
+	</div>
+
+
+	<article class="brand-write">
+		<h4>후기 작성하기</h4>
+		<select>
+			<option value="">카테고리</option>
+			<option value="">침대 리뷰</option>
+			<option value="">가구 리뷰</option>
+			<option value="">기타 리뷰</option>
+		</select>
+		<input type="text" placeholder="제목을 입력하세요.">
+		<textarea name="" placeholder="내용을 입력하세요."></textarea>
+		<div>
+			<input type="file" id="file">
+			<label for="file"><img
+					src="image/icon-plus.png"></label>
+			<input type="file" id="file">
+			<label for="file"><img
+					src="image/icon-plus.png"></label>
+			<input type="file" id="file">
+			<label for="file"><img
+					src="image/icon-plus.png"></label>
+			<input type="file" id="file">
+			<label for="file"><img
+					src="image/icon-plus.png"></label>
+		</div>
+		<div>
+			<button class="butn-grey">임시저장</button>
+			<button class="butn-red">등록하기</button>
+		</div>
+	</article>
+
+
+	<article class="posts">
+
+		<h4>고객 후기</h4>
+
+		<div class="onlypc">
+			<ul class="dis_flex jus_sb">
+				<li class="tab_on">전체</li>
+				<li>포토후기</li>
+				<li>100일후기</li>
+				<li>스트레스리스</li>
+			</ul>
+		</div>
+
+		<div class="posts-main">
+			<div class="dis_flex jus_sb">
+				<p>총 <span>9588</span> 건</p>
+				<div>
+					<select>
+						<option value="">추천순</option>
+						<option value="">최근순</option>
+						<option value="">조회수순</option>
+					</select>
+				</div>
+			</div>
+			<div class="dis_flex">
+
+				<section>
+					<div><img src="image/posting_1.jpg"></div>
+					<div>
+						<div class="dis_flex jus_sb">
+							<p><b>ERBA, DUO TECH Ⅲ</b></p>
+							<span class="starpoint">★★★★★</span>
+						</div>
+						<small>롯데백화점 안산점</small>
+						<p>너무 잘 쓰고 있는 에이스 침대!
+							구매는 롯데백화점 안산점에서 했어요. 에이스랑 타업체 돌아다녔는데 매트리스도 에이스가 편하고 매니저님께서 저희에게 맞는걸로 추천을 너무 잘 해주셔서 에이스에서
+							구매하게 됐어요~!</p>
+						<small>2023-05-12</small>
+					</div>
+				</section>
+
+				<section>
+					<div><img src="image/posting_2.jpg"></div>
+					<div>
+						<div class="dis_flex jus_sb">
+							<p><b>PRETTO, ACE BELLA-Ⅲ</b></p>
+							<span class="starpoint">★★★★★</span>
+						</div>
+						<small>용인흥덕점</small>
+						<p>백화점 및 대리점 방문하여 여려제품 및 브랜드 구경후 한번쓰면 오래쓸것같아서 에이스침대결정 집근처 용인흥덕</p>
+						<small>2023-06-18</small>
+					</div>
+				</section>
+
+				<section>
+					<div><img src="image/posting_3.jpg"></div>
+					<div>
+						<div class="dis_flex jus_sb">
+							<p><b>ACE BELLA-Ⅲ</b></p>
+							<span class="starpoint">★★★★★</span>
+						</div>
+						<small>신세계백화점 Art&Science점</small>
+						<p>이것저것 알아보다가 에이스침대 매장을 들어갔는데 일단 직원분이 너무 친절하게 설명해주시고 안내해주셔서 기분</p>
+						<small>2023-07-17</small>
+					</div>
+				</section>
+
+				<section>
+					<div><img src="image/posting_4.jpg"></div>
+					<div>
+						<div class="dis_flex jus_sb">
+							<p><b>LUCE-III, DUO TECH Ⅲ</b></p>
+							<span class="starpoint">★★★★☆</span>
+						</div>
+						<small>에이스스퀘어 진주점</small>
+						<p>3개월 써본 솔직한 후기 적어봅니다. 침대 너무 이쁘고 조명 켜지는 것도 느낌있고 좋아요. 외관 디자인은 100점 만</p>
+						<small>2023-09-03</small>
+					</div>
+				</section>
+
+			</div>
+			<a class="butn-red dis_blk text_cen">더보기</a>
+		</div>
+
+		<div class="posts-comments">
+			<p class="dis_flex jus_sb">DUO TECH Ⅲ <span class="butn-red"><a>구매하기</a></span></p>
+			<div>
+				<ul class="dis_flex jus_sb">
+					<li>후기선택<span>포토 후기</span></li>
+					<li>구매매장<span>롯데백화점 안산점</span></li>
+					<li class="dis_flex jus_sb">
+						<p class="starpoint">★★★★★</p>
+						<p>작성일<span>2023-05-12 </span></p>
+						<p>작성자<span>이*엽</span></p>
+					</li>
+				</ul>
+				<p>너무 잘 쓰고 있는 에이스 침대!
+					구매는 롯데백화점 안산점에서 했어요. 에이스랑 타업체 돌아다녔는데 매트리스도 에이스가 편하고 매니저님께서 저희에게 맞는걸로 추천을 너무 잘 해주셔서 에이스에서 구매하게 됐어요~!
+					프레임은 부클 관리가 어려울 것 같아서 가죽이나 나무 프레임을 구매할 생각이었어요. 근데 부클 프레임이 너무 예뻐서
+					관리 방법을 여쭤보니까 코팅처리가 돼서 방수가 되고 커피같은 게 묻었을 때는 물티슈로 바로 지우면 지워진다고 하시더라고요.
+					영상도 보여주셨는데 생각보다 관리가 쉽더라고요. 그래서 이 침대로 결정했어요~!</p>
+				<div>
+					<img src="image/posting_1.jpg">
+					<img src="image/posting_re2.jpg">
+					<img src="image/posting_re3.jpg">
+				</div>
+			</div>
+
+			<div class="text_cen">
+				<button class="graybutton text_cen"><img src="image/posting-icon-like.png"><span class="dis_blk">11</span></button>
+			</div>
+			<a class="butn-red dis_blk text_cen">목록</a>
+		</div>
+
+	</article>
+
+
+	<div w3-include-html="footer.html"></div>
+
+    
+    <script>
+        includeHTML();
+    </script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    word-break: keep-all;
+    outline: 0px solid silver;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+a:link {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+a:visited {
+    color: #f9f9f9;
+}
+
+a .arrow-right {
+    vertical-align: middle;
+    width: 8px;
+    height: auto;
+    margin-left: 4px;
+}
+
+/*pc-mo on/off*/
+.onlypc, .onlypc_flex {
+    display: none;
+}
+
+.onlymo {
+    display: block;
+}
+
+/* 마패세팅*/
+.inner {
+    margin: 0 96px;  /*좌우*/
+} 
+
+.dis_none {
+    display: none;
+}
+
+.dis_blk {
+    display: block;
+}
+
+.dis_flex {
+    display: flex;
+}
+
+.jus_sb {
+    justify-content: space-between;
+}
+
+.jus_sa {
+    justify-content: space-around;
+}
+
+.jus_cen {
+    justify-content: center;
+}
+
+/*버튼 세팅*/
+button {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    padding: 5px 0px;
+    border: none;
+    color: #222;
+    background-color: rgba(0, 0, 0, 0);
+    border: #222 solid 1px;
+}
+
+/*버거메뉴바*/
+.solid {
+    display: block;
+    height: 18px;
+    width: 2px;
+    background: #777;
+}
+
+.bugermenu {
+    cursor: pointer;
+    height: 24px;
+    width: 28px;
+    transition: 0.3s;
+}
+
+/*반응형*/
+@media screen and (min-width: 1200px) {
+    .onlypc {
+        display: block;
+    }
+
+    .onlypc_flex {
+        display: flex;
+    }
+
+    .onlymo {
+        display: none;
+    }
+}

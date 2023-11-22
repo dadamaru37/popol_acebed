@@ -1,0 +1,472 @@
+body {
+  background-color: #2a2a3e;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+
+.title {
+  font-weight: 700;
+  padding: 0px 0px 20px 0px;
+  position: relative;
+  margin-bottom: 80px;
+  text-align: center;
+  padding-top: 160px;
+  color: #f9f9f9;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 160px;
+  height: 8px;
+  background: #aca5a1;
+}
+
+a:link {
+  color: #666;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #666;
+}
+
+a:hover {
+  color: rgba(208, 179, 107, 1);
+}
+
+a:active {
+  color: rgba(208, 179, 107, 1);
+}
+
+button {
+  width: 40px;
+  height: 4px;
+  border-radius: 50%;
+  font-size: 14px;
+  background: #222;
+  text-align: center;
+  color: #f9f9f9;
+  text-transform: uppercase;
+}
+
+article {
+  width: 90%;
+  max-width: 600px;
+  border: 1px solid #bbb;
+  padding: 60px 30px 70px 30px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  background-color: #f9f9f9;
+}
+
+section {
+  padding: 20px 5%;
+}
+
+input {
+  width: 100%;
+  background-color: #f9f9f9;
+  border: #ccc solid 1px;
+  margin-top: 12px;
+  height: 40px;
+}
+
+.modal_2_Con_search p  {
+  height: 44px;
+}
+
+.modal_2_Con_search p input {
+  height: 12px;
+}
+
+ul {
+  margin-top: 8px;
+  list-style: none;
+}
+
+textarea {
+  width: 100%;
+  border: #ccc solid 1px;
+  padding: 20px 12px 12px;
+  color: #777;
+}
+
+select {
+  font-size: 14px;
+  color: #333;
+  word-spacing: 0px;
+  border: none;
+  width: 48px;
+  height: 40px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('image/icon-arrow-down-black.png') no-repeat 97% 50%/8px auto;
+}
+
+select option {
+  font-size: 14px;
+  border: #f9f9f9 solid 1px;
+  height: auto;
+}
+
+
+/* design default */
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 10px;
+}
+
+input[type='checkbox'] {
+  width: 12px;
+  height: auto;
+}
+
+input[type='text'] {
+  padding: 0 20px;
+}
+
+input::placeholder {
+  color: #777;
+}
+
+.butn-red {
+  background: #58514d linear-gradient(#2a2a3e 0 0) left / var(--p, 0%) no-repeat;
+  color: #f9f9f9;
+  transition: 0.3s;
+  border: none;
+}
+
+.butn-red:hover {
+  --p: 100%;
+}
+
+.butn-grey {
+  background: #aca5a1;
+  background: #aca5a1 linear-gradient(#303030 0 0) left / var(--p, 0%) no-repeat;
+  color: #f9f9f9;
+  transition: 0.3s;
+}
+
+.butn-grey:hover {
+  --p: 100%;
+}
+
+/*시작*/
+.login {
+  color: #777;
+}
+
+.login> :nth-child(2) {
+  margin-top: 24px;
+}
+
+.login div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.login div ul {
+  width: 50%;
+  text-align: right;
+}
+
+.login div ul a {
+  margin-left: 4px;
+}
+
+.login div label {
+  color: #000;
+  font-weight: 100;
+}
+
+.login> :nth-child(5) {
+  margin-top: 24px;
+}
+
+.login> :nth-child(7) {
+  margin-top: 20px;
+  padding-top: 28px;
+  color: #000;
+  font-weight: 700;
+}
+
+.login>button {
+  width: 100%;
+  border-radius: 0;
+  border: #ccc solid 1px;
+  height: 48px;
+  background: #f9f9f9;
+  margin-top: 8px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.login>button:hover {
+  border: #000 solid 1px;
+}
+
+.login>button img {
+  margin: auto 8px auto 0;
+}
+
+.login>button p {
+  margin: auto 0;
+}
+
+.login> :nth-child(8) {
+  margin-top: 20px;
+}
+
+.login> :nth-child(8) img {
+  width: 20px;
+}
+
+.login> :nth-child(9) img {
+  width: 24px;
+}
+
+.login> :nth-child(10) img {
+  width: 24px;
+}
+
+.login> :nth-child(11) p {
+  line-height: 20px;
+  padding: 9px 4%;
+}
+
+.login> :nth-child(11) input {
+  width: 140px;
+  margin: auto 0;
+  cursor: pointer;
+}
+
+.join_title h2 {
+  margin-bottom: 0;
+}
+
+.join_title p {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  padding: 0 4%;
+  color: #f9f9f9;
+}
+
+.join p {
+  text-align: left;
+  margin-top: 24px;
+  color: #1e1e1e;
+  font-weight: 700;
+}
+
+.join> :nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+}
+
+.join> :nth-child(3)> :nth-child(1) {
+  width: 72%;
+}
+
+.join> :nth-child(3)> :nth-child(2) {
+  width: 26%;
+}
+
+.join> :nth-child(13) {
+  display: flex;
+  justify-content: space-between;
+}
+
+.join> :nth-child(13)> :nth-child(1) {
+  width: 60%;
+}
+
+.join> :nth-child(13)> :nth-child(2) {
+  width: 38%;
+}
+
+.join> :nth-child(15) {
+  background: url("image/search_bt.png") no-repeat;
+  background-size: 16px;
+  background-position: 98%;
+}
+
+.join ul {
+  display: flex;
+  width: 100%;
+  border: #ccc solid 1px;
+  height: 40px;
+  line-height: 36px;
+}
+
+.join ul li {
+  margin-left: 20px;
+}
+
+.join ul li select {
+  margin-right: 4px;
+}
+
+.join> :nth-child(18) {
+  margin-top: 60px;
+}
+
+.join> :nth-child(19) {
+  width: 100%;
+  text-align: left;
+  margin-top: 16px;
+}
+
+.join> :nth-child(20) {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: #ccc solid 1px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.join> :nth-child(20) label span {
+  color: #777;
+}
+
+.join> :nth-child(21) {
+  margin-top: 24px;
+}
+
+.agreeform textarea {
+  margin-top: 24px;
+  background: #eee;
+}
+
+.agreeform p {
+  text-align: left;
+  margin: 12px;
+}
+
+.join-complete h1 img {
+  margin: 40px 0 20px;
+  height: 40px;
+  width: auto;
+}
+
+.join-complete div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  padding: 20px 12px 0;
+}
+
+.join-complete div> a {
+  width: 49%;
+}
+
+.join-complete div> a label input {
+  width: 100%;
+  cursor: pointer;
+}
+
+.remove h4:nth-child(2) {
+  color: #2a2a3e;
+  font-weight: 700;
+  margin: 40px auto 0;
+  padding-bottom: 4px;
+  border-bottom: #2a2a3e solid 4px;
+  width: 240px;
+}
+
+.remove p {
+  margin-top: 20px;
+}
+
+.remove input {
+  width: 140px;
+  margin-top: 40px;
+  border: none;
+  font-weight: 400;
+  color: #f9f9f9;
+}
+
+.remove-reason> :nth-child(2) {
+  margin-top: 24px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.remove-reason>p {
+  text-align: left;
+  font-weight: 700;
+  margin-top: 24px;
+}
+
+.remove-reason select {
+  width: 100%;
+  margin-top: 20px;
+  border: #ccc solid 1px;
+  height: 40px;
+  color: #777;
+  padding: 4px 8px;
+}
+
+.remove-reason select option {
+  color: #000;
+}
+
+.remove-reason textarea {
+  margin-top: 20px;
+  padding: 8px;
+}
+
+.remove-reason input {
+  width: 140px;
+  margin: 40px auto 0;
+}
+
+.remove-complete img {
+  width: 48px;
+  margin-top: 20px;
+}
+
+.remove-complete p {
+  margin-top: 20px;
+}
+
+.remove-complete :nth-child(4) {
+  margin-top: 24px;
+}
+
+.remove-complete a {
+  margin-top: 40px;
+  width: 140px;
+}
+
+.remove-complete a input {
+  cursor: pointer;
+}
+
+/* labtop */
+@media screen and (min-width: 1200px) {
+
+  article {
+    width: 600px;
+    margin: 48px auto 200px;
+
+  }
+
+
+
+}
