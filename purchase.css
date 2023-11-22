@@ -607,7 +607,7 @@ select {
   .con-1 .con_info {
     max-width: 1200px;
     padding: 39px 0;
-    margin-top: 0;
+    margin: 0 auto;
     border: none;
   }
 
