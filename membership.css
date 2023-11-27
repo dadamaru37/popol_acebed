@@ -1,7 +1,3 @@
-body {
-  background-color: #aca5a1;
-}
-
 img {
   width: 100px;
   height: auto;
@@ -14,7 +10,7 @@ img {
   margin-bottom: 80px;
   text-align: center;
   padding-top: 160px;
-  color: #f9f9f9;
+  color: #1e1e1e;
 }
 
 .title::after {

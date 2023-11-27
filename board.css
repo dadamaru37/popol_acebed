@@ -3,10 +3,6 @@
         height: auto;
     }
 
-    body {
-        background-color: #aca5a1;
-    }
-
     span {
         font-weight: normal;
         color: #999;
@@ -154,7 +150,7 @@
         margin-bottom: 80px;
         text-align: center;
         padding-top: 160px;
-        color: #f1f1f1;
+        color: #1e1e1e;
     }
 
     .title::after {
@@ -165,7 +161,7 @@
         transform: translate(-50%);
         width: 160px;
         height: 8px;
-        background: #aca5a1;
+        background: #2a2a3e;
     }
 
     /*strat------------*/

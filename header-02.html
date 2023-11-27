@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ko">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3.0">
+    <title>kwang---</title>
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header-02.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+
+<body>
+
+    <header id="headBar">
+        <div class="header_con dis_flex jus_sb">
+
+            <h1 class="logo_g">
+                <a class="dis_flex logo_g_1" href="index.html"><img
+                        src="image/logo_black.png"></a>
+                <a class="dis_flex logo_g_2" href="index.html"><img
+                        src="image/logo_black.png"></a>
+            </h1>
+
+            <div class="onlypc_flex">
+                <ul class="dis_flex text_cen">
+                    <li class="purchase">
+                        <a class="dis_blk text_upp  purchaseBt" href="purchase.html">purchase</a>
+                    </li>
+                    <li class="board">
+                        <a class="dis_blk text_upp boardBt" href="posting.html">board</a>
+                    </li>
+                    <li class="qna">
+                        <a class="dis_blk text_upp  qnaBt" href="qna.html">qna</a>
+                    </li>
+                    <li class="faq">
+                        <a class="dis_blk text_upp  newsBt" href="faq.html">faq</a>
+                    </li>
+                </ul>
+                <ul class="dis_flex text_cen">
+                    <li id="logIn" onclick="window.location.href='login.html'"><a class="dis_blk text_upp">login</a></li>
+                    <li onclick="window.location.href='join.html'"><a class="dis_blk text_upp">join</a></li>
+                    <li onclick="window.location.href='remove.html'"><a class="dis_blk text_upp">remove</a></li>
+                </ul>
+            </div>
+
+            <div class="onlymo dis_flex">
+                <a class="dis_blk" id="open"><img src="image/header_menu_bt_mo.png"></a>
+            </div>
+
+        </div>
+
+        <nav class="modal_2" id="modal_2">
+            <div>
+
+                <div class="dis_flex jus_sb">
+                    <div>
+                        <a href="index.html"><img
+                            src="image/logo_black.png"></a>
+                    </div>
+                    <div class="exit" id="exit">
+                        <img class="dis_blk" src="image/icon-exit.png">
+                    </div>
+                </div>
+
+                <div class="modal_2_Con" id="">
+
+                    <div>
+                        <h4>로그인을 해주세요</h4>
+                        <em>회원가입을 하여 다양한 혜택이 받아보세요.</em>
+                        <div>
+                            <a class="text_upp" href="login.html">login</a>
+                            <a class="text_upp" href="join.html">join</a>
+                        </div>
+                    </div>
+
+                    <div class="modal_2_Con_search">
+                        <p class="dis_flex jus_sb"><input type="text" placeholder="궁금하신 정보를 빠르게 찾아보세요"><img
+                                src="image/icon-search.png"></p>
+                    </div>
+
+                    <ul>
+                        <li><a class="text_capi" href="login.html">login</a><img class="arrow-down"
+                            src="image/icon-plus.png"></li>
+                        <li><a class="text_capi" href="join.html">join</a><img class="arrow-down"
+                            src="image/icon-plus.png"></li>    
+                        <li><a class="text_capi" href="remove.html">remove</a><img class="arrow-down"
+                                src="image/icon-plus.png"></li>
+                        <li><a class="text_capi" href="purchase.html">purchase</a><img class="arrow-down"
+                                src="image/icon-plus.png"></li>
+                        <li><a class="text_capi" href="posting.html">board</a><img class="arrow-down"
+                                src="image/icon-plus.png"></li>
+                        <li><a class="text_capi" href="qna.html">qna</a><img class="arrow-down"
+                                src="image/icon-plus.png"></li>
+                        <li><a class="text_capi" href="faq.html">faq</a><img class="arrow-down"
+                                src="image/icon-plus.png"></li>
+                    </ul>
+
+                    <div class="modal_2_Con_event">
+                        <img src="image/header-modal_event.jpg">
+                    </div>
+
+                    <div class="modal_2_Con_famaily">
+                        <a class="dis_flex jus_sb modal_2_Con_famaily_tab famaily_tab">LANGUAGE<img
+                                src="image/icon-select.png"></a>
+                        <div class="modal_2_Con_famaily_list famaily_list">
+                            <a class="dis_blk">ENGLISH</a>
+                            <a class="dis_blk">日本語</a>
+                            <a class="dis_blk">中國語</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            var familySiteLink = document.querySelector(".famaily_tab");
+            familySiteLink.addEventListener("click", function () {
+
+                var familySiteList = document.querySelector(".famaily_list");
+
+                if (familySiteList.style.display === "none" || familySiteList.style.display === "") {
+                    familySiteList.style.display = "block"; // 열림
+                } else {
+                    familySiteList.style.display = "none"; // 닫힘
+                }
+            });
+        });       
+    </script>
+
+</body>
+
+
+</html>
